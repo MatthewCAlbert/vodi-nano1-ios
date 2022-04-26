@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C89C73828186D69007F100D /* VODIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89C73728186D69007F100D /* VODIApp.swift */; };
+		4C89C73A28186D69007F100D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89C73928186D69007F100D /* ContentView.swift */; };
+		4C89C73C28186D6B007F100D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C89C73B28186D6B007F100D /* Assets.xcassets */; };
+		4C89C73F28186D6B007F100D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C89C73E28186D6B007F100D /* Preview Assets.xcassets */; };
+		4C89C74928186D6B007F100D /* VODITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89C74828186D6B007F100D /* VODITests.swift */; };
+		4C89C75328186D6B007F100D /* VODIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89C75228186D6B007F100D /* VODIUITests.swift */; };
+		4C89C75528186D6B007F100D /* VODIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89C75428186D6B007F100D /* VODIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C89C74528186D6B007F100D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C89C72C28186D69007F100D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C89C73328186D69007F100D;
+			remoteInfo = VODI;
+		};
+		4C89C74F28186D6B007F100D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C89C72C28186D69007F100D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C89C73328186D69007F100D;
+			remoteInfo = VODI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C89C73428186D69007F100D /* VODI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VODI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C89C73728186D69007F100D /* VODIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VODIApp.swift; sourceTree = "<group>"; };
+		4C89C73928186D69007F100D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4C89C73B28186D6B007F100D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C89C73E28186D6B007F100D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4C89C74428186D6B007F100D /* VODITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VODITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C89C74828186D6B007F100D /* VODITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VODITests.swift; sourceTree = "<group>"; };
+		4C89C74E28186D6B007F100D /* VODIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VODIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C89C75228186D6B007F100D /* VODIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VODIUITests.swift; sourceTree = "<group>"; };
+		4C89C75428186D6B007F100D /* VODIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VODIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C89C73128186D69007F100D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C89C74128186D6B007F100D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C89C74B28186D6B007F100D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C89C72B28186D69007F100D = {
+			isa = PBXGroup;
+			children = (
+				4C89C73628186D69007F100D /* VODI */,
+				4C89C74728186D6B007F100D /* VODITests */,
+				4C89C75128186D6B007F100D /* VODIUITests */,
+				4C89C73528186D69007F100D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C89C73528186D69007F100D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C89C73428186D69007F100D /* VODI.app */,
+				4C89C74428186D6B007F100D /* VODITests.xctest */,
+				4C89C74E28186D6B007F100D /* VODIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C89C73628186D69007F100D /* VODI */ = {
+			isa = PBXGroup;
+			children = (
+				4C89C73728186D69007F100D /* VODIApp.swift */,
+				4C89C73928186D69007F100D /* ContentView.swift */,
+				4C89C73B28186D6B007F100D /* Assets.xcassets */,
+				4C89C73D28186D6B007F100D /* Preview Content */,
+			);
+			path = VODI;
+			sourceTree = "<group>";
+		};
+		4C89C73D28186D6B007F100D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4C89C73E28186D6B007F100D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4C89C74728186D6B007F100D /* VODITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C89C74828186D6B007F100D /* VODITests.swift */,
+			);
+			path = VODITests;
+			sourceTree = "<group>";
+		};
+		4C89C75128186D6B007F100D /* VODIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C89C75228186D6B007F100D /* VODIUITests.swift */,
+				4C89C75428186D6B007F100D /* VODIUITestsLaunchTests.swift */,
+			);
+			path = VODIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C89C73328186D69007F100D /* VODI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C89C75828186D6B007F100D /* Build configuration list for PBXNativeTarget "VODI" */;
+			buildPhases = (
+				4C89C73028186D69007F100D /* Sources */,
+				4C89C73128186D69007F100D /* Frameworks */,
+				4C89C73228186D69007F100D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VODI;
+			productName = VODI;
+			productReference = 4C89C73428186D69007F100D /* VODI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C89C74328186D6B007F100D /* VODITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C89C75B28186D6B007F100D /* Build configuration list for PBXNativeTarget "VODITests" */;
+			buildPhases = (
+				4C89C74028186D6B007F100D /* Sources */,
+				4C89C74128186D6B007F100D /* Frameworks */,
+				4C89C74228186D6B007F100D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C89C74628186D6B007F100D /* PBXTargetDependency */,
+			);
+			name = VODITests;
+			productName = VODITests;
+			productReference = 4C89C74428186D6B007F100D /* VODITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C89C74D28186D6B007F100D /* VODIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C89C75E28186D6B007F100D /* Build configuration list for PBXNativeTarget "VODIUITests" */;
+			buildPhases = (
+				4C89C74A28186D6B007F100D /* Sources */,
+				4C89C74B28186D6B007F100D /* Frameworks */,
+				4C89C74C28186D6B007F100D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C89C75028186D6B007F100D /* PBXTargetDependency */,
+			);
+			name = VODIUITests;
+			productName = VODIUITests;
+			productReference = 4C89C74E28186D6B007F100D /* VODIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C89C72C28186D69007F100D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					4C89C73328186D69007F100D = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					4C89C74328186D6B007F100D = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 4C89C73328186D69007F100D;
+					};
+					4C89C74D28186D6B007F100D = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 4C89C73328186D69007F100D;
+					};
+				};
+			};
+			buildConfigurationList = 4C89C72F28186D69007F100D /* Build configuration list for PBXProject "VODI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C89C72B28186D69007F100D;
+			productRefGroup = 4C89C73528186D69007F100D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C89C73328186D69007F100D /* VODI */,
+				4C89C74328186D6B007F100D /* VODITests */,
+				4C89C74D28186D6B007F100D /* VODIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C89C73228186D69007F100D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C89C73F28186D6B007F100D /* Preview Assets.xcassets in Resources */,
+				4C89C73C28186D6B007F100D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C89C74228186D6B007F100D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C89C74C28186D6B007F100D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C89C73028186D69007F100D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C89C73A28186D69007F100D /* ContentView.swift in Sources */,
+				4C89C73828186D69007F100D /* VODIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C89C74028186D6B007F100D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C89C74928186D6B007F100D /* VODITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C89C74A28186D6B007F100D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C89C75528186D6B007F100D /* VODIUITestsLaunchTests.swift in Sources */,
+				4C89C75328186D6B007F100D /* VODIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C89C74628186D6B007F100D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C89C73328186D69007F100D /* VODI */;
+			targetProxy = 4C89C74528186D6B007F100D /* PBXContainerItemProxy */;
+		};
+		4C89C75028186D6B007F100D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C89C73328186D69007F100D /* VODI */;
+			targetProxy = 4C89C74F28186D6B007F100D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4C89C75628186D6B007F100D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C89C75728186D6B007F100D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C89C75928186D6B007F100D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VODI/Preview Content\"";
+				DEVELOPMENT_TEAM = GXV96JYG87;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewcalbert.VODI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C89C75A28186D6B007F100D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VODI/Preview Content\"";
+				DEVELOPMENT_TEAM = GXV96JYG87;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewcalbert.VODI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4C89C75C28186D6B007F100D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GXV96JYG87;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewcalbert.VODITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VODI.app/VODI";
+			};
+			name = Debug;
+		};
+		4C89C75D28186D6B007F100D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GXV96JYG87;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewcalbert.VODITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VODI.app/VODI";
+			};
+			name = Release;
+		};
+		4C89C75F28186D6B007F100D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GXV96JYG87;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewcalbert.VODIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VODI;
+			};
+			name = Debug;
+		};
+		4C89C76028186D6B007F100D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GXV96JYG87;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.matthewcalbert.VODIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VODI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C89C72F28186D69007F100D /* Build configuration list for PBXProject "VODI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C89C75628186D6B007F100D /* Debug */,
+				4C89C75728186D6B007F100D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C89C75828186D6B007F100D /* Build configuration list for PBXNativeTarget "VODI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C89C75928186D6B007F100D /* Debug */,
+				4C89C75A28186D6B007F100D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C89C75B28186D6B007F100D /* Build configuration list for PBXNativeTarget "VODITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C89C75C28186D6B007F100D /* Debug */,
+				4C89C75D28186D6B007F100D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C89C75E28186D6B007F100D /* Build configuration list for PBXNativeTarget "VODIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C89C75F28186D6B007F100D /* Debug */,
+				4C89C76028186D6B007F100D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C89C72C28186D69007F100D /* Project object */;
+}
