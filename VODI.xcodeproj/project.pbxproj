@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23E879F6441BFB302D2A3E26 /* Pods_VODI_VODIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 346B04A4A52B228855DD65D9 /* Pods_VODI_VODIUITests.framework */; };
 		4C89C73828186D69007F100D /* VODIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89C73728186D69007F100D /* VODIApp.swift */; };
 		4C89C73A28186D69007F100D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89C73928186D69007F100D /* ContentView.swift */; };
 		4C89C73C28186D6B007F100D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C89C73B28186D6B007F100D /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 		4C89C74928186D6B007F100D /* VODITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89C74828186D6B007F100D /* VODITests.swift */; };
 		4C89C75328186D6B007F100D /* VODIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89C75228186D6B007F100D /* VODIUITests.swift */; };
 		4C89C75528186D6B007F100D /* VODIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89C75428186D6B007F100D /* VODIUITestsLaunchTests.swift */; };
+		6B1A5064CF659A120F7C3474 /* Pods_VODI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68588C0A11E9FA5447553EB6 /* Pods_VODI.framework */; };
+		B30DC17ABF0BC907AE40D819 /* Pods_VODITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039EC3B3A924B014B0B435BB /* Pods_VODITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		039EC3B3A924B014B0B435BB /* Pods_VODITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VODITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06DACFCB8E2D1ACD22859E22 /* Pods-VODITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VODITests.debug.xcconfig"; path = "Target Support Files/Pods-VODITests/Pods-VODITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1FCBA1304F236CBFDF9D8474 /* Pods-VODI-VODIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VODI-VODIUITests.release.xcconfig"; path = "Target Support Files/Pods-VODI-VODIUITests/Pods-VODI-VODIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		346B04A4A52B228855DD65D9 /* Pods_VODI_VODIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VODI_VODIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C89C73428186D69007F100D /* VODI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VODI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C89C73728186D69007F100D /* VODIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VODIApp.swift; sourceTree = "<group>"; };
 		4C89C73928186D69007F100D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +53,11 @@
 		4C89C75428186D6B007F100D /* VODIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VODIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4C89C7A028186E0D007F100D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		4C89C7A32818D5FC007F100D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		62FEBFAA9CB3EF419D419156 /* Pods-VODI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VODI.release.xcconfig"; path = "Target Support Files/Pods-VODI/Pods-VODI.release.xcconfig"; sourceTree = "<group>"; };
+		68588C0A11E9FA5447553EB6 /* Pods_VODI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VODI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B5B2416698F82AC221F37A /* Pods-VODITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VODITests.release.xcconfig"; path = "Target Support Files/Pods-VODITests/Pods-VODITests.release.xcconfig"; sourceTree = "<group>"; };
+		AFFDA86837647314CD585062 /* Pods-VODI-VODIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VODI-VODIUITests.debug.xcconfig"; path = "Target Support Files/Pods-VODI-VODIUITests/Pods-VODI-VODIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ECBD5BA609532FE5E40EC09A /* Pods-VODI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VODI.debug.xcconfig"; path = "Target Support Files/Pods-VODI/Pods-VODI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B1A5064CF659A120F7C3474 /* Pods_VODI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B30DC17ABF0BC907AE40D819 /* Pods_VODITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,12 +81,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23E879F6441BFB302D2A3E26 /* Pods_VODI_VODIUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C27565128194F8B002E32B6 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		4C27565228194F93002E32B6 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 		4C89C72B28186D69007F100D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +110,8 @@
 				4C89C74728186D6B007F100D /* VODITests */,
 				4C89C75128186D6B007F100D /* VODIUITests */,
 				4C89C73528186D69007F100D /* Products */,
+				6F22502B304570C157EBDFD8 /* Pods */,
+				D87C86DF628D5716AEE1C684 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +128,8 @@
 		4C89C73628186D69007F100D /* VODI */ = {
 			isa = PBXGroup;
 			children = (
+				4C27565228194F93002E32B6 /* Scenes */,
+				4C27565128194F8B002E32B6 /* Entities */,
 				4C89C7A028186E0D007F100D /* Info.plist */,
 				4C89C73728186D69007F100D /* VODIApp.swift */,
 				4C89C73928186D69007F100D /* ContentView.swift */,
@@ -131,6 +164,29 @@
 			path = VODIUITests;
 			sourceTree = "<group>";
 		};
+		6F22502B304570C157EBDFD8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECBD5BA609532FE5E40EC09A /* Pods-VODI.debug.xcconfig */,
+				62FEBFAA9CB3EF419D419156 /* Pods-VODI.release.xcconfig */,
+				AFFDA86837647314CD585062 /* Pods-VODI-VODIUITests.debug.xcconfig */,
+				1FCBA1304F236CBFDF9D8474 /* Pods-VODI-VODIUITests.release.xcconfig */,
+				06DACFCB8E2D1ACD22859E22 /* Pods-VODITests.debug.xcconfig */,
+				83B5B2416698F82AC221F37A /* Pods-VODITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D87C86DF628D5716AEE1C684 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68588C0A11E9FA5447553EB6 /* Pods_VODI.framework */,
+				346B04A4A52B228855DD65D9 /* Pods_VODI_VODIUITests.framework */,
+				039EC3B3A924B014B0B435BB /* Pods_VODITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C89C75828186D6B007F100D /* Build configuration list for PBXNativeTarget "VODI" */;
 			buildPhases = (
+				04EA13120163B03A622424B0 /* [CP] Check Pods Manifest.lock */,
 				4C89C73028186D69007F100D /* Sources */,
 				4C89C73128186D69007F100D /* Frameworks */,
 				4C89C73228186D69007F100D /* Resources */,
+				C54A395084CA4F2FED788631 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C89C75B28186D6B007F100D /* Build configuration list for PBXNativeTarget "VODITests" */;
 			buildPhases = (
+				6805DA9077529E3467781276 /* [CP] Check Pods Manifest.lock */,
 				4C89C74028186D6B007F100D /* Sources */,
 				4C89C74128186D6B007F100D /* Frameworks */,
 				4C89C74228186D6B007F100D /* Resources */,
@@ -173,9 +232,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C89C75E28186D6B007F100D /* Build configuration list for PBXNativeTarget "VODIUITests" */;
 			buildPhases = (
+				36ABBD7A83A92F40092196C0 /* [CP] Check Pods Manifest.lock */,
 				4C89C74A28186D6B007F100D /* Sources */,
 				4C89C74B28186D6B007F100D /* Frameworks */,
 				4C89C74C28186D6B007F100D /* Resources */,
+				C7BEADD1DA1CDF00F7D31D98 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -255,6 +316,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04EA13120163B03A622424B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VODI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36ABBD7A83A92F40092196C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VODI-VODIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6805DA9077529E3467781276 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VODITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C54A395084CA4F2FED788631 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VODI/Pods-VODI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VODI/Pods-VODI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VODI/Pods-VODI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7BEADD1DA1CDF00F7D31D98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VODI-VODIUITests/Pods-VODI-VODIUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VODI-VODIUITests/Pods-VODI-VODIUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VODI-VODIUITests/Pods-VODI-VODIUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4C89C73028186D69007F100D /* Sources */ = {
@@ -415,6 +579,7 @@
 		};
 		4C89C75928186D6B007F100D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECBD5BA609532FE5E40EC09A /* Pods-VODI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -430,6 +595,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,6 +611,7 @@
 		};
 		4C89C75A28186D6B007F100D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62FEBFAA9CB3EF419D419156 /* Pods-VODI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +627,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,6 +643,7 @@
 		};
 		4C89C75C28186D6B007F100D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06DACFCB8E2D1ACD22859E22 /* Pods-VODITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -495,6 +664,7 @@
 		};
 		4C89C75D28186D6B007F100D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83B5B2416698F82AC221F37A /* Pods-VODITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +685,7 @@
 		};
 		4C89C75F28186D6B007F100D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFFDA86837647314CD585062 /* Pods-VODI-VODIUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -533,6 +704,7 @@
 		};
 		4C89C76028186D6B007F100D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FCBA1304F236CBFDF9D8474 /* Pods-VODI-VODIUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
