@@ -8,6 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		23E879F6441BFB302D2A3E26 /* Pods_VODI_VODIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 346B04A4A52B228855DD65D9 /* Pods_VODI_VODIUITests.framework */; };
+		4C275654281954A4002E32B6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C275653281954A4002E32B6 /* HomeView.swift */; };
+		4C27565628195501002E32B6 /* DraftItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C27565528195501002E32B6 /* DraftItemListView.swift */; };
+		4C2756582819551E002E32B6 /* EditDraftItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2756572819551E002E32B6 /* EditDraftItemView.swift */; };
+		4C27565C28195589002E32B6 /* ARSandboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C27565B28195589002E32B6 /* ARSandboxView.swift */; };
+		4C27565E281955EB002E32B6 /* DraftInventoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C27565D281955EB002E32B6 /* DraftInventoryItem.swift */; };
+		4C27566128195877002E32B6 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C27566028195877002E32B6 /* Image.swift */; };
+		4C27566728195A0E002E32B6 /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C27566628195A0E002E32B6 /* View+Ext.swift */; };
+		4C27566A28195B05002E32B6 /* DraftInventoryItemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C27566928195B05002E32B6 /* DraftInventoryItemService.swift */; };
+		4C27566F28196160002E32B6 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C27566E28196160002E32B6 /* RealmManager.swift */; };
+		4C27567228197271002E32B6 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C27567128197271002E32B6 /* ARViewContainer.swift */; };
+		4C2756742819800D002E32B6 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2756732819800D002E32B6 /* CameraManager.swift */; };
+		4C27567628198150002E32B6 /* CGImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C27567528198150002E32B6 /* CGImage+Ext.swift */; };
+		4C275678281981B2002E32B6 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C275677281981B2002E32B6 /* FrameView.swift */; };
+		4C27567A281981CF002E32B6 /* FrameErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C275679281981CF002E32B6 /* FrameErrorView.swift */; };
+		4C27567C28198230002E32B6 /* ARSandboxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C27567B28198230002E32B6 /* ARSandboxViewModel.swift */; };
+		4C27567F2819826B002E32B6 /* FrameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C27567E2819826B002E32B6 /* FrameManager.swift */; };
+		4C27568128198279002E32B6 /* CameraError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C27568028198279002E32B6 /* CameraError.swift */; };
+		4C2756842819A2B8002E32B6 /* SandboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2756832819A2B8002E32B6 /* SandboxView.swift */; };
+		4C2756862819A489002E32B6 /* UINavigationController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2756852819A489002E32B6 /* UINavigationController+Ext.swift */; };
+		4C2756882819A4F9002E32B6 /* DisableSwipeBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2756872819A4F9002E32B6 /* DisableSwipeBack.swift */; };
 		4C89C73828186D69007F100D /* VODIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89C73728186D69007F100D /* VODIApp.swift */; };
 		4C89C73A28186D69007F100D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89C73928186D69007F100D /* ContentView.swift */; };
 		4C89C73C28186D6B007F100D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C89C73B28186D6B007F100D /* Assets.xcassets */; };
@@ -41,6 +61,26 @@
 		06DACFCB8E2D1ACD22859E22 /* Pods-VODITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VODITests.debug.xcconfig"; path = "Target Support Files/Pods-VODITests/Pods-VODITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1FCBA1304F236CBFDF9D8474 /* Pods-VODI-VODIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VODI-VODIUITests.release.xcconfig"; path = "Target Support Files/Pods-VODI-VODIUITests/Pods-VODI-VODIUITests.release.xcconfig"; sourceTree = "<group>"; };
 		346B04A4A52B228855DD65D9 /* Pods_VODI_VODIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VODI_VODIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C275653281954A4002E32B6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4C27565528195501002E32B6 /* DraftItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftItemListView.swift; sourceTree = "<group>"; };
+		4C2756572819551E002E32B6 /* EditDraftItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDraftItemView.swift; sourceTree = "<group>"; };
+		4C27565B28195589002E32B6 /* ARSandboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSandboxView.swift; sourceTree = "<group>"; };
+		4C27565D281955EB002E32B6 /* DraftInventoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftInventoryItem.swift; sourceTree = "<group>"; };
+		4C27566028195877002E32B6 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		4C27566628195A0E002E32B6 /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
+		4C27566928195B05002E32B6 /* DraftInventoryItemService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftInventoryItemService.swift; sourceTree = "<group>"; };
+		4C27566E28196160002E32B6 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		4C27567128197271002E32B6 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+		4C2756732819800D002E32B6 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		4C27567528198150002E32B6 /* CGImage+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImage+Ext.swift"; sourceTree = "<group>"; };
+		4C275677281981B2002E32B6 /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
+		4C275679281981CF002E32B6 /* FrameErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameErrorView.swift; sourceTree = "<group>"; };
+		4C27567B28198230002E32B6 /* ARSandboxViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSandboxViewModel.swift; sourceTree = "<group>"; };
+		4C27567E2819826B002E32B6 /* FrameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameManager.swift; sourceTree = "<group>"; };
+		4C27568028198279002E32B6 /* CameraError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraError.swift; sourceTree = "<group>"; };
+		4C2756832819A2B8002E32B6 /* SandboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandboxView.swift; sourceTree = "<group>"; };
+		4C2756852819A489002E32B6 /* UINavigationController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Ext.swift"; sourceTree = "<group>"; };
+		4C2756872819A4F9002E32B6 /* DisableSwipeBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisableSwipeBack.swift; sourceTree = "<group>"; };
 		4C89C73428186D69007F100D /* VODI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VODI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C89C73728186D69007F100D /* VODIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VODIApp.swift; sourceTree = "<group>"; };
 		4C89C73928186D69007F100D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,18 +128,110 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4C27565128194F8B002E32B6 /* Entities */ = {
+		4C27565128194F8B002E32B6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4C27565D281955EB002E32B6 /* DraftInventoryItem.swift */,
 			);
-			path = Entities;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		4C27565228194F93002E32B6 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				4C27567028197258002E32B6 /* Sandbox */,
+				4C27565928195523002E32B6 /* ItemList */,
+				4C275653281954A4002E32B6 /* HomeView.swift */,
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		4C27565928195523002E32B6 /* ItemList */ = {
+			isa = PBXGroup;
+			children = (
+				4C27565528195501002E32B6 /* DraftItemListView.swift */,
+				4C2756572819551E002E32B6 /* EditDraftItemView.swift */,
+			);
+			path = ItemList;
+			sourceTree = "<group>";
+		};
+		4C27565F2819586A002E32B6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4C27567D2819824A002E32B6 /* Camera */,
+				4C27566028195877002E32B6 /* Image.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4C27566528195A03002E32B6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4C27566628195A0E002E32B6 /* View+Ext.swift */,
+				4C27567528198150002E32B6 /* CGImage+Ext.swift */,
+				4C2756852819A489002E32B6 /* UINavigationController+Ext.swift */,
+				4C2756872819A4F9002E32B6 /* DisableSwipeBack.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4C27566828195AEF002E32B6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4C27566928195B05002E32B6 /* DraftInventoryItemService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4C27566B28195E7A002E32B6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4C27565228194F93002E32B6 /* Scenes */,
+				4C89C73928186D69007F100D /* ContentView.swift */,
+				4C89C73728186D69007F100D /* VODIApp.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		4C27566D2819613E002E32B6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4C27566828195AEF002E32B6 /* Services */,
+				4C27565128194F8B002E32B6 /* Models */,
+				4C27566E28196160002E32B6 /* RealmManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		4C27567028197258002E32B6 /* Sandbox */ = {
+			isa = PBXGroup;
+			children = (
+				4C2756822819A29D002E32B6 /* MainSandbox */,
+				4C2756832819A2B8002E32B6 /* SandboxView.swift */,
+			);
+			path = Sandbox;
+			sourceTree = "<group>";
+		};
+		4C27567D2819824A002E32B6 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				4C2756732819800D002E32B6 /* CameraManager.swift */,
+				4C27567E2819826B002E32B6 /* FrameManager.swift */,
+				4C27568028198279002E32B6 /* CameraError.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		4C2756822819A29D002E32B6 /* MainSandbox */ = {
+			isa = PBXGroup;
+			children = (
+				4C27565B28195589002E32B6 /* ARSandboxView.swift */,
+				4C27567128197271002E32B6 /* ARViewContainer.swift */,
+				4C275677281981B2002E32B6 /* FrameView.swift */,
+				4C275679281981CF002E32B6 /* FrameErrorView.swift */,
+				4C27567B28198230002E32B6 /* ARSandboxViewModel.swift */,
+			);
+			path = MainSandbox;
 			sourceTree = "<group>";
 		};
 		4C89C72B28186D69007F100D = {
@@ -128,11 +260,11 @@
 		4C89C73628186D69007F100D /* VODI */ = {
 			isa = PBXGroup;
 			children = (
-				4C27565228194F93002E32B6 /* Scenes */,
-				4C27565128194F8B002E32B6 /* Entities */,
+				4C27566D2819613E002E32B6 /* Data */,
+				4C27566B28195E7A002E32B6 /* UI */,
+				4C27566528195A03002E32B6 /* Extensions */,
+				4C27565F2819586A002E32B6 /* Utils */,
 				4C89C7A028186E0D007F100D /* Info.plist */,
-				4C89C73728186D69007F100D /* VODIApp.swift */,
-				4C89C73928186D69007F100D /* ContentView.swift */,
 				4C89C73B28186D6B007F100D /* Assets.xcassets */,
 				4C89C73D28186D6B007F100D /* Preview Content */,
 			);
@@ -425,8 +557,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C27565E281955EB002E32B6 /* DraftInventoryItem.swift in Sources */,
+				4C2756742819800D002E32B6 /* CameraManager.swift in Sources */,
+				4C2756842819A2B8002E32B6 /* SandboxView.swift in Sources */,
+				4C27566128195877002E32B6 /* Image.swift in Sources */,
+				4C275678281981B2002E32B6 /* FrameView.swift in Sources */,
+				4C27566728195A0E002E32B6 /* View+Ext.swift in Sources */,
+				4C275654281954A4002E32B6 /* HomeView.swift in Sources */,
+				4C27566A28195B05002E32B6 /* DraftInventoryItemService.swift in Sources */,
+				4C2756862819A489002E32B6 /* UINavigationController+Ext.swift in Sources */,
+				4C27567F2819826B002E32B6 /* FrameManager.swift in Sources */,
+				4C27567228197271002E32B6 /* ARViewContainer.swift in Sources */,
+				4C27568128198279002E32B6 /* CameraError.swift in Sources */,
+				4C2756582819551E002E32B6 /* EditDraftItemView.swift in Sources */,
+				4C27566F28196160002E32B6 /* RealmManager.swift in Sources */,
+				4C27567628198150002E32B6 /* CGImage+Ext.swift in Sources */,
+				4C27565628195501002E32B6 /* DraftItemListView.swift in Sources */,
 				4C89C73A28186D69007F100D /* ContentView.swift in Sources */,
 				4C89C73828186D69007F100D /* VODIApp.swift in Sources */,
+				4C2756882819A4F9002E32B6 /* DisableSwipeBack.swift in Sources */,
+				4C27567C28198230002E32B6 /* ARSandboxViewModel.swift in Sources */,
+				4C27565C28195589002E32B6 /* ARSandboxView.swift in Sources */,
+				4C27567A281981CF002E32B6 /* FrameErrorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
