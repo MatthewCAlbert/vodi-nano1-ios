@@ -44,6 +44,8 @@
 		4C89C74E28186D6B007F100D /* VODIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VODIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C89C75228186D6B007F100D /* VODIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VODIUITests.swift; sourceTree = "<group>"; };
 		4C89C75428186D6B007F100D /* VODIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VODIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4C89C7A028186E0D007F100D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4C89C7A32818D5FC007F100D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		4C89C72B28186D69007F100D = {
 			isa = PBXGroup;
 			children = (
+				4C89C7A32818D5FC007F100D /* README.md */,
 				4C89C73628186D69007F100D /* VODI */,
 				4C89C74728186D6B007F100D /* VODITests */,
 				4C89C75128186D6B007F100D /* VODIUITests */,
@@ -94,6 +97,7 @@
 		4C89C73628186D69007F100D /* VODI */ = {
 			isa = PBXGroup;
 			children = (
+				4C89C7A028186E0D007F100D /* Info.plist */,
 				4C89C73728186D69007F100D /* VODIApp.swift */,
 				4C89C73928186D69007F100D /* ContentView.swift */,
 				4C89C73B28186D6B007F100D /* Assets.xcassets */,
@@ -420,6 +424,7 @@
 				DEVELOPMENT_TEAM = GXV96JYG87;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VODI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +454,7 @@
 				DEVELOPMENT_TEAM = GXV96JYG87;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VODI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

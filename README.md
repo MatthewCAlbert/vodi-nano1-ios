@@ -1,2 +1,2 @@
-#  <#Title#>
+# VODI - Virtual Outfit Directory & Inventory
 
