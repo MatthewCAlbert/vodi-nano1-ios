@@ -12,11 +12,10 @@
 		4C27565628195501002E32B6 /* DraftItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C27565528195501002E32B6 /* DraftItemListView.swift */; };
 		4C2756582819551E002E32B6 /* EditDraftItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2756572819551E002E32B6 /* EditDraftItemView.swift */; };
 		4C27565C28195589002E32B6 /* ARSandboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C27565B28195589002E32B6 /* ARSandboxView.swift */; };
-		4C27565E281955EB002E32B6 /* DraftInventoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C27565D281955EB002E32B6 /* DraftInventoryItem.swift */; };
+		4C27565E281955EB002E32B6 /* RMDraftInventoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C27565D281955EB002E32B6 /* RMDraftInventoryItem.swift */; };
 		4C27566128195877002E32B6 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C27566028195877002E32B6 /* Image.swift */; };
 		4C27566728195A0E002E32B6 /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C27566628195A0E002E32B6 /* View+Ext.swift */; };
-		4C27566A28195B05002E32B6 /* DraftInventoryItemService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C27566928195B05002E32B6 /* DraftInventoryItemService.swift */; };
-		4C27566F28196160002E32B6 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C27566E28196160002E32B6 /* RealmManager.swift */; };
+		4C27566A28195B05002E32B6 /* DraftInventoryItemRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C27566928195B05002E32B6 /* DraftInventoryItemRepository.swift */; };
 		4C27567228197271002E32B6 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C27567128197271002E32B6 /* ARViewContainer.swift */; };
 		4C2756742819800D002E32B6 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2756732819800D002E32B6 /* CameraManager.swift */; };
 		4C27567628198150002E32B6 /* CGImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C27567528198150002E32B6 /* CGImage+Ext.swift */; };
@@ -28,6 +27,13 @@
 		4C2756842819A2B8002E32B6 /* SandboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2756832819A2B8002E32B6 /* SandboxView.swift */; };
 		4C2756862819A489002E32B6 /* UINavigationController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2756852819A489002E32B6 /* UINavigationController+Ext.swift */; };
 		4C2756882819A4F9002E32B6 /* DisableSwipeBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2756872819A4F9002E32B6 /* DisableSwipeBack.swift */; };
+		4C27568A2819BA7C002E32B6 /* DraftItemListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2756892819BA7C002E32B6 /* DraftItemListViewModel.swift */; };
+		4C27568C281A80DF002E32B6 /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C27568B281A80DF002E32B6 /* DataExtension.swift */; };
+		4C27568F281A8243002E32B6 /* RealmConvertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C27568E281A8243002E32B6 /* RealmConvertion.swift */; };
+		4C275692281A833D002E32B6 /* DraftInventoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C275691281A833D002E32B6 /* DraftInventoryItem.swift */; };
+		4C275694281A873D002E32B6 /* RealmRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C275693281A873D002E32B6 /* RealmRepository.swift */; };
+		4C275696281A9E8A002E32B6 /* RealmTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C275695281A9E8A002E32B6 /* RealmTest.swift */; };
+		4C275698281AA3EB002E32B6 /* XCTestCase+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C275697281AA3EB002E32B6 /* XCTestCase+Ext.swift */; };
 		4C89C73828186D69007F100D /* VODIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89C73728186D69007F100D /* VODIApp.swift */; };
 		4C89C73A28186D69007F100D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89C73928186D69007F100D /* ContentView.swift */; };
 		4C89C73C28186D6B007F100D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C89C73B28186D6B007F100D /* Assets.xcassets */; };
@@ -65,11 +71,10 @@
 		4C27565528195501002E32B6 /* DraftItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftItemListView.swift; sourceTree = "<group>"; };
 		4C2756572819551E002E32B6 /* EditDraftItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDraftItemView.swift; sourceTree = "<group>"; };
 		4C27565B28195589002E32B6 /* ARSandboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSandboxView.swift; sourceTree = "<group>"; };
-		4C27565D281955EB002E32B6 /* DraftInventoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftInventoryItem.swift; sourceTree = "<group>"; };
+		4C27565D281955EB002E32B6 /* RMDraftInventoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMDraftInventoryItem.swift; sourceTree = "<group>"; };
 		4C27566028195877002E32B6 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		4C27566628195A0E002E32B6 /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
-		4C27566928195B05002E32B6 /* DraftInventoryItemService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftInventoryItemService.swift; sourceTree = "<group>"; };
-		4C27566E28196160002E32B6 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		4C27566928195B05002E32B6 /* DraftInventoryItemRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftInventoryItemRepository.swift; sourceTree = "<group>"; };
 		4C27567128197271002E32B6 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
 		4C2756732819800D002E32B6 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
 		4C27567528198150002E32B6 /* CGImage+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImage+Ext.swift"; sourceTree = "<group>"; };
@@ -81,6 +86,13 @@
 		4C2756832819A2B8002E32B6 /* SandboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandboxView.swift; sourceTree = "<group>"; };
 		4C2756852819A489002E32B6 /* UINavigationController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Ext.swift"; sourceTree = "<group>"; };
 		4C2756872819A4F9002E32B6 /* DisableSwipeBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisableSwipeBack.swift; sourceTree = "<group>"; };
+		4C2756892819BA7C002E32B6 /* DraftItemListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftItemListViewModel.swift; sourceTree = "<group>"; };
+		4C27568B281A80DF002E32B6 /* DataExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExtension.swift; sourceTree = "<group>"; };
+		4C27568E281A8243002E32B6 /* RealmConvertion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmConvertion.swift; sourceTree = "<group>"; };
+		4C275691281A833D002E32B6 /* DraftInventoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftInventoryItem.swift; sourceTree = "<group>"; };
+		4C275693281A873D002E32B6 /* RealmRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmRepository.swift; sourceTree = "<group>"; };
+		4C275695281A9E8A002E32B6 /* RealmTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmTest.swift; sourceTree = "<group>"; };
+		4C275697281AA3EB002E32B6 /* XCTestCase+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+Ext.swift"; sourceTree = "<group>"; };
 		4C89C73428186D69007F100D /* VODI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VODI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C89C73728186D69007F100D /* VODIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VODIApp.swift; sourceTree = "<group>"; };
 		4C89C73928186D69007F100D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -131,7 +143,7 @@
 		4C27565128194F8B002E32B6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				4C27565D281955EB002E32B6 /* DraftInventoryItem.swift */,
+				4C27565D281955EB002E32B6 /* RMDraftInventoryItem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -151,6 +163,7 @@
 			children = (
 				4C27565528195501002E32B6 /* DraftItemListView.swift */,
 				4C2756572819551E002E32B6 /* EditDraftItemView.swift */,
+				4C2756892819BA7C002E32B6 /* DraftItemListViewModel.swift */,
 			);
 			path = ItemList;
 			sourceTree = "<group>";
@@ -175,12 +188,13 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		4C27566828195AEF002E32B6 /* Services */ = {
+		4C27566828195AEF002E32B6 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
-				4C27566928195B05002E32B6 /* DraftInventoryItemService.swift */,
+				4C27566928195B05002E32B6 /* DraftInventoryItemRepository.swift */,
+				4C275693281A873D002E32B6 /* RealmRepository.swift */,
 			);
-			path = Services;
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 		4C27566B28195E7A002E32B6 /* UI */ = {
@@ -196,9 +210,11 @@
 		4C27566D2819613E002E32B6 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				4C27566828195AEF002E32B6 /* Services */,
+				4C275690281A832F002E32B6 /* Entities */,
+				4C27566828195AEF002E32B6 /* Repositories */,
 				4C27565128194F8B002E32B6 /* Models */,
-				4C27566E28196160002E32B6 /* RealmManager.swift */,
+				4C27568B281A80DF002E32B6 /* DataExtension.swift */,
+				4C27568E281A8243002E32B6 /* RealmConvertion.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -232,6 +248,14 @@
 				4C27567B28198230002E32B6 /* ARSandboxViewModel.swift */,
 			);
 			path = MainSandbox;
+			sourceTree = "<group>";
+		};
+		4C275690281A832F002E32B6 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				4C275691281A833D002E32B6 /* DraftInventoryItem.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 		4C89C72B28186D69007F100D = {
@@ -283,6 +307,8 @@
 			isa = PBXGroup;
 			children = (
 				4C89C74828186D6B007F100D /* VODITests.swift */,
+				4C275695281A9E8A002E32B6 /* RealmTest.swift */,
+				4C275697281AA3EB002E32B6 /* XCTestCase+Ext.swift */,
 			);
 			path = VODITests;
 			sourceTree = "<group>";
@@ -557,25 +583,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C27565E281955EB002E32B6 /* DraftInventoryItem.swift in Sources */,
+				4C27565E281955EB002E32B6 /* RMDraftInventoryItem.swift in Sources */,
 				4C2756742819800D002E32B6 /* CameraManager.swift in Sources */,
 				4C2756842819A2B8002E32B6 /* SandboxView.swift in Sources */,
+				4C275692281A833D002E32B6 /* DraftInventoryItem.swift in Sources */,
 				4C27566128195877002E32B6 /* Image.swift in Sources */,
 				4C275678281981B2002E32B6 /* FrameView.swift in Sources */,
 				4C27566728195A0E002E32B6 /* View+Ext.swift in Sources */,
 				4C275654281954A4002E32B6 /* HomeView.swift in Sources */,
-				4C27566A28195B05002E32B6 /* DraftInventoryItemService.swift in Sources */,
+				4C275694281A873D002E32B6 /* RealmRepository.swift in Sources */,
+				4C27566A28195B05002E32B6 /* DraftInventoryItemRepository.swift in Sources */,
 				4C2756862819A489002E32B6 /* UINavigationController+Ext.swift in Sources */,
 				4C27567F2819826B002E32B6 /* FrameManager.swift in Sources */,
 				4C27567228197271002E32B6 /* ARViewContainer.swift in Sources */,
+				4C27568F281A8243002E32B6 /* RealmConvertion.swift in Sources */,
 				4C27568128198279002E32B6 /* CameraError.swift in Sources */,
 				4C2756582819551E002E32B6 /* EditDraftItemView.swift in Sources */,
-				4C27566F28196160002E32B6 /* RealmManager.swift in Sources */,
+				4C27568C281A80DF002E32B6 /* DataExtension.swift in Sources */,
 				4C27567628198150002E32B6 /* CGImage+Ext.swift in Sources */,
 				4C27565628195501002E32B6 /* DraftItemListView.swift in Sources */,
 				4C89C73A28186D69007F100D /* ContentView.swift in Sources */,
 				4C89C73828186D69007F100D /* VODIApp.swift in Sources */,
 				4C2756882819A4F9002E32B6 /* DisableSwipeBack.swift in Sources */,
+				4C27568A2819BA7C002E32B6 /* DraftItemListViewModel.swift in Sources */,
 				4C27567C28198230002E32B6 /* ARSandboxViewModel.swift in Sources */,
 				4C27565C28195589002E32B6 /* ARSandboxView.swift in Sources */,
 				4C27567A281981CF002E32B6 /* FrameErrorView.swift in Sources */,
@@ -587,6 +617,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C89C74928186D6B007F100D /* VODITests.swift in Sources */,
+				4C275698281AA3EB002E32B6 /* XCTestCase+Ext.swift in Sources */,
+				4C275696281A9E8A002E32B6 /* RealmTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
